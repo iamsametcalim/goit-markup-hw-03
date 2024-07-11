@@ -1,6 +1,9 @@
 body {
   box-sizing: border-box;
 }
+img {
+  display: block;
+}
 /* Burdan başladın head kısmını eklemedin daha !!!!
 
 header kısmı*/
@@ -23,14 +26,14 @@ nav {
 .logo {
   margin-right: 76px;
 }
-nav ul {
+.nav-list {
   display: flex;
   gap: 40px;
 }
 .contacts {
-  padding: 24px;
+  padding: 24px 0;
 }
-address ul {
+.adres-list {
   display: flex;
   gap: 40px;
 }
@@ -56,19 +59,32 @@ address ul {
 .our-features {
   padding: 120px 0;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
 .ourf-ullist {
   display: flex;
-  gap: 20px;
+  gap: 24px;
 }
 .ourf-list {
   width: calc((100% - 72px) / 4);
+}
+.ourf-baslik {
+  margin-bottom: 8px;
 }
 /*3. section team */
 
 .team {
   padding: 120px 0;
 }
-h2 .our-team {
+.our-team-hiki {
   margin-bottom: 72px;
 }
 .our-team-list {
@@ -107,9 +123,9 @@ h2 .our-team {
 }
 .uygulama-isim {
   padding: 36px 16px;
+  margin-bottom: 8px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 .foot-part {
   padding: 100px 0;
