@@ -127,9 +127,9 @@ flex-basis: calc((100% - 3 * 24px) / 4);
 
 .apps-baslik {
   margin-bottom: 8px;
-  padding: 36px 16px;
 }
 .uygulama-isim {
+  padding: 36px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
