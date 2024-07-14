@@ -114,18 +114,22 @@ nav {
 .ourp-baslik {
   margin-bottom: 72px;
 }
+.apps-resim-list {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
 .apps-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
-.apps {
-  width: calc((100% - 72px) / 4);
-}
-.uygulama-isim {
+
+.apps-baslik {
   padding: 36px 16px;
   margin-bottom: 8px;
+}
+.uygulama-isim {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
