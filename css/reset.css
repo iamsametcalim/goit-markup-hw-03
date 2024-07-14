@@ -4,7 +4,9 @@ body {
 img {
   display: block;
 }
-/*header kısmı*/
+/* Burdan başladın head kısmını eklemedin daha !!!!
+
+header kısmı*/
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -74,7 +76,7 @@ nav {
   gap: 24px;
 }
 .ourf-list {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .ourf-baslik {
   margin-bottom: 8px;
@@ -92,7 +94,7 @@ nav {
   gap: 24px;
 }
 .ekip-uye {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 .team-isim {
@@ -141,4 +143,5 @@ nav {
 .footer-text {
   max-width: 164px;
 }
+
 
