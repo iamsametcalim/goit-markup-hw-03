@@ -126,7 +126,6 @@ nav {
 }
 
 .apps-baslik {
-  padding: 36px 16px;
   margin-bottom: 8px;
 }
 .uygulama-isim {
@@ -144,3 +143,4 @@ nav {
 .footer-text {
   max-width: 164px;
 }
+
