@@ -126,10 +126,10 @@ nav {
 }
 
 .apps-baslik {
+  padding: 36px 16px;
   margin-bottom: 8px;
 }
 .uygulama-isim {
-  padding: 36px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
