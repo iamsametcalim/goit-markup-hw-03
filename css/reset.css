@@ -76,7 +76,7 @@ nav {
   gap: 24px;
 }
 .ourf-list {
-width: calc((100% - 3 * 24px) / 4) ;
+flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .ourf-baslik {
   margin-bottom: 8px;
